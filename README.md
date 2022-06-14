@@ -1,5 +1,7 @@
 # Image compressor
 
+[![pthon-version](https://img.shields.io/badge/Python-3.9-brightgreen?style=flat-square)](https://www.python.org/) [![pthon-version](https://img.shields.io/github/downloads/guibuenorodrigues/image-compressor/total.svg?style=flat-square)](https://github.com/guibuenorodrigues/image-compressor/releases) [![pthon-version](https://img.shields.io/github/license/guibuenorodrigues/image-compressor.svg?style=flat-square)](https://github.com/guibuenorodrigues/image-compressor/blob/main/LICENSE)
+
 monitor a given folder and compress images to recude its size.
 
 ## Create the executable file
