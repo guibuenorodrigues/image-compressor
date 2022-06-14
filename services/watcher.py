@@ -87,7 +87,7 @@ class Watcher:
 
         for file in os.listdir(self.directory):
             self.logger.debug('working on file %s in %s', file, self.directory)
-            
+
             full_path = os.path.join(self.directory, file)
 
             if os.path.isdir(full_path):
@@ -116,7 +116,7 @@ class Watcher:
                     )
                     self.logger.debug('moving to next file')
                     continue
-                
+
                 # compress the image itself
                 image.compress(quality=self.quality)
 
@@ -124,7 +124,7 @@ class Watcher:
                 self.save_to_json(
                     file, image.compressed_size_bytes, image.extension
                 )
-                
+
                 self.logger.info(
                     '[%s] has been compressed. from %d bytes to %d bytes. Reduce of %s',
                     image.file_path,
